@@ -73,8 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- About us -->
 <div class ="about" id="about">
-		<h1>About Us</h1>
-		<div class="card-deck">
+<div class="card-deck">
   <div class="card">
     <img class="card-img-top" src="..." alt="Card image cap">
     <div class="card-body">
@@ -100,7 +99,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
   </div>
 </div>
-		
+
 </div>
 <!-- Services -->
 	<div class ="service" id="service">
