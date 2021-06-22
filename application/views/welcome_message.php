@@ -8,28 +8,46 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="<?php  echo base_url();?> assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 	<title>Teklink</title>
 
 </head>
 <body>
+
+<ul class="nav justify-content-end bg-success navbar-dark">
+	<span>Follow us:</span>
+    <li class="nav-item">
+      <a class="nav-link" href="#">FB</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">W</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link bg-dark" href="#">Call Now!+(27)10 593 5223</a>
+    </li>
+  </ul>
+
+
 <div class="banner">
-	<div class ="navbar"> 
+	<div class ="navbar"> 	
 		
-	<img class="logo_image" alt="logo_image"
-		<?php 
-				echo "<img style='height:150px'; src ='assets/img/logo_image.png'>";	
-		?>
-	>
-		<ul >
+	<img class="logo" src ="<?php echo base_url();?>assets/img/icon_t.png"/>	
+	
+	<ul>
+		
 			<li><a href="#home">Home</a></li>
 			<li><a href="#about">About us</a></li>
-			<li><a href="#service">services</a></li>
+			<li><a href="#service">Services</a></li>
 			<li><a href="#approach">Approach</a></li>
 			<li><a href="#portfolio">Portfolio</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<hr>
+			
 		</ul>
 	</div>
 	<div class ="content">
