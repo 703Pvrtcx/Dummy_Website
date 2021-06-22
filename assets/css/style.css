@@ -13,7 +13,7 @@
 }
 
 .navbar {  
-    width: 100%;
+    width: 86%;
     height:100px;
     margin: auto;
     padding: 35px 0;
@@ -58,25 +58,35 @@
 .content {
     width: 100%;
     position: absolute;
-    top: 30%;
+    top: 25%;
     transform: rotateY(-50%);
-    text-align: center;
+    text-align: start;
     color: #fff;
+    margin-left: 100px;
 }
 
 .content h1 {
-    margin: 70px;
-    margin-top: 20px;
+
+font-size: 72px;
+    /* margin: 70px; */
+    /* font-size:72px;
+    font-weight: 200px;
+    height: 100px; */
+    /* margin-top: 20px; */
 }
 
 .content p {
-    margin: 20px auto;
-    font-weight: 100;
-    line-height: 25px;
+    font-size: 24px;
+    
+    /* height: 40px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 100; */
+    /* line-height: 25px; */
 }
 
 .about {
-    width: 100%;
+    width: 80%;
     height: 100vh;
     /* position: absolute; */
     transform: rotateY(-50%);
