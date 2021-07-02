@@ -8,19 +8,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/about.css">
+
 
 	<link rel="stylesheet" type="text/css" href="<?php  echo base_url();?> assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="<?php  echo base_url();?> assets/css/about.css">
+
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<!-- Bootstrap CSS -->
+	<!-- Bootstrapz CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-	<title>Teklink</title>
+	<title>Tekink</title>
 
 </head>
 <body>
@@ -71,55 +73,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 </div>
 
-<!-- About us -->
-<div class ="about" id="about">
-<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
 
-</div>
+<!-- About us -->
+<div class ="service" id="about">
+	<h1>About</h1>
+		<p>Loren ipsom
+			<br>
+		</p>
+  </div>
+
 <!-- Services -->
 	<div class ="service" id="service">
-		<h1>Services</h1>
-		<div class="card-group">
-		<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-    </div>
-    <div class="flip-card-back">
-      <h1>John Doe</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
-    </div>
-  </div>
-</div>
+	<h1>Services</h1>
+		<p>Loren ipsom
+			<br>
+		</p>
+		
 
-</div>
-	</div>
+  </div>
+
+
+
+
 	<!-- Approach -->
 	<div class ="approach" id="approach">
 		<h1>Approach</h1>
