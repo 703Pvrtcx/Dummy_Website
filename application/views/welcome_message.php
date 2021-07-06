@@ -183,11 +183,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="row">
 								<div class="col-2">
 									<div class="dedicated-icon">
-									Icon image
+									<img class="Support" src ="<?php echo base_url();?>assets/img/support.png" alt="Support"/>	
+				
 									</div>
 								</div>
 								<div class="col-8">
-										<div class="dedicated-title">Dedicated Support</div>
+										<div class="dedicated-title">
+										<strong>Dedicated Support</strong>
+										</div>
 										<div class="dedicated-p">We have a customer centric Support team dedicated to serve the needs of our customers. Our support team is available 24/7 and is supported by in-house built Customer Relationship Management (CRM) tool for better support experience.</div>
 								</div>
 							</div>
@@ -200,11 +203,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="row">
 								<div class="col-2">
 									<div class="dedicated-icon">
-										Icon image
+									<img class="Experts" src ="<?php echo base_url();?>assets/img/Experts.png" alt="Support"/>	
+	
 									</div>
 								</div>
 								<div class="col-8">
-										<div class="dedicated-title">Dedicated Experts</div>
+										<div class="dedicated-title">
+											<strong>Dedicated Experts</strong>
+										</div>
 										<div class="dedicated-p">We take security very seriously. We have developed a comprehensive set of practices, technologies, and policies to help ensure your data is secure, our cloud and local hosted solutions are fully supported by our team of security experts.</div>
 								</div>
 							</div>
@@ -219,11 +225,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="row">
 								<div class="col-2">
 									<div class="dedicated-icon">
-									Icon image
+									<img class="Security" src ="<?php echo base_url();?>assets/img/security.png" alt="Security"/>	
+				
 									</div>
 								</div>
 								<div class="col-8">
-										<div class="dedicated-title">Dedicated Security</div>
+										<div class="dedicated-title"><strong>Dedicated Security</strong></div>
 										<div class="dedicated-p">We have a customer centric Support team dedicated to serve the needs of our customers. Our support team is available 24/7 and is supported by in-house built Customer Relationship Management (CRM) tool for better support experience.</div>
 								</div>
 							</div>
