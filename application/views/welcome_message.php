@@ -7,12 +7,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	 <!-- Required meta tags -->
 	 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 	<link rel="stylesheet" type="text/css" href="<?php  echo base_url();?> assets/css/style.css">
-
-
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 
@@ -111,7 +110,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>	
 		</div>
-
 		<div class="col-3">
 		<div class="flip-card">
 			<div class="flip-card-inner">
@@ -150,24 +148,91 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- Services -->
 	<div class ="service" id="service">
-	<h1>Services</h1>
-		<p>Loren ipsom
-			<br>
-		</p>
-		
+		<div class="row justify-content-center">
+			<div class="col-4">
+			<img class="cloud" src ="<?php echo base_url();?>assets/img/cloud.png" alt="Cloud"/>	
+				
+			</div>
+			<div class="col-6 content">
+				<h2>Who We Are?</h2>
+				<h4>Inspiring Technologies</h4>
+				<p>
+					Teklink is a South African based turnkey software and business solution provider <br>providing Web, Mobile App and Software Development.	<br/>Established in 2017, at Teklink we proudly develop our own client facing <br/> solutions that we fully operate as separate businesses as well as take<br/> development work for external clients.
+				</p>
+				<div class="col-5">
+					<div class="input-container">
+						<button class="btn btn-light btn-field"><strong>READ MORE</strong></button>
+						<i class="fa fa-book icon"></i>
+					</div>
+				</div>
+			</div>
+		</div>
 
   </div>
 
-
-
-
 	<!-- Approach -->
 	<div class ="approach" id="approach">
-		<h1>Approach</h1>
-		<p>Loren ipsom
-			<br>
-		</p>
-		
+		<div class="row justify-content-center">
+				<div class="col-5">
+					<img class="secure" src ="<?php echo base_url();?>assets/img/secure.png" alt="Secure image"/>	
+				</div>
+				<div class="col-7">
+					<!-- Dedicated Support -->
+					<div class="dedicated">
+						<div class="dedicated-item">
+							<div class="row">
+								<div class="col-2">
+									<div class="dedicated-icon">
+									Icon image
+									</div>
+								</div>
+								<div class="col-8">
+										<div class="dedicated-title">Dedicated Support</div>
+										<div class="dedicated-p">We have a customer centric Support team dedicated to serve the needs of our customers. Our support team is available 24/7 and is supported by in-house built Customer Relationship Management (CRM) tool for better support experience.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Dedicated Experts -->
+					<div class="dedicated">
+						<div class="dedicated-item">
+							<div class="row">
+								<div class="col-2">
+									<div class="dedicated-icon">
+										Icon image
+									</div>
+								</div>
+								<div class="col-8">
+										<div class="dedicated-title">Dedicated Experts</div>
+										<div class="dedicated-p">We take security very seriously. We have developed a comprehensive set of practices, technologies, and policies to help ensure your data is secure, our cloud and local hosted solutions are fully supported by our team of security experts.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					
+					<!-- Dedicated Security -->
+					<div class="dedicated">
+						<div class="dedicated-item">
+							<div class="row">
+								<div class="col-2">
+									<div class="dedicated-icon">
+									Icon image
+									</div>
+								</div>
+								<div class="col-8">
+										<div class="dedicated-title">Dedicated Security</div>
+										<div class="dedicated-p">We have a customer centric Support team dedicated to serve the needs of our customers. Our support team is available 24/7 and is supported by in-house built Customer Relationship Management (CRM) tool for better support experience.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+		</div>
 	</div>
 	<!-- Portfolio -->
 	<div class ="portfolio" id="portfolio">
