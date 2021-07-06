@@ -45,10 +45,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="banner">
 	<div class ="navbar"> 	
 		
-	<img class="logo" src ="<?php echo base_url();?>assets/img/icon_t.png"/>	
-	
+	<img class="logo" src ="<?php echo base_url();?>assets/img/logo.png"/>	
 	<ul>
-		
 			<li><a href="#home">Home</a></li>
 			<li><a href="#about">About us</a></li>
 			<li><a href="#service">Services</a></li>
@@ -243,10 +241,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 	<!-- Portfolio -->
 	<div class ="portfolio" id="portfolio">
-		<h1>Portfolio</h1>
-		<p>Loren ipsom
-			<br>
-		</p>
+
+
+	
 	</div>
 	<!-- Contact us -->
 	<div class ="contact" id="contact">
