@@ -75,11 +75,77 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 <!-- About us -->
-<div class ="service" id="about">
-	<h1>About</h1>
-		<p>Loren ipsom
-			<br>
-		</p>
+<div class ="about" id="about">
+	<div class="row justify-content-between">
+		<div class="col-3">
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+					<img class="card-img-top" src ="<?php echo base_url();?>assets/img/CAD.png" alt="CAD"/>	
+						<div class="card-body">
+							<h5 class="card-title">Custom Application Development</h5>
+							<div class="desc">We build highly secure, scalable and robust application</div>
+						</div>
+					</div>
+					<div class="flip-card-back">
+					
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="col-3">
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+	
+					<img class="card-img-top" src ="<?php echo base_url();?>assets/img/WEB.png" alt="WAD"/>	
+					<div class="card-body">
+						<h5 class="card-title">Web Application Development</h5>
+						<div class="desc">For e-commerce portals, CRM, CMS, ERP Solutions to Chatbot's</div>
+					</div>
+
+					</div>
+					<div class="flip-card-back">
+					
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="col-3">
+		<div class="flip-card">
+			<div class="flip-card-inner">
+					<div class="flip-card-front">
+					<img class="card-img-top" src ="<?php echo base_url();?>assets/img/Mobile.png" alt="MAD"/>	
+					<div class="card-body">
+						<h5 class="card-title">Mobile Application Development</h5>
+						<div class="desc">Whether you require native or cross platform apps</div>
+					</div>
+					</div>
+					<div class="flip-card-back">
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-3">
+			<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+						<img class="card-img-top" src ="<?php echo base_url();?>assets/img/custom.png" alt="MAD"/>	
+						<div class="card-body">
+							<h5 class="card-title">Software Application Development</h5>
+							<div class="desc">Planning to outsource software maintenance service?</div>
+						</div>
+						</div>
+						<div class="flip-card-back">
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
   </div>
 
 <!-- Services -->
