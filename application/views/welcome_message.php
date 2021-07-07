@@ -74,7 +74,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!-- About us -->
 <div class ="about" id="about">
 	<div class="row justify-content-between">
-		<div class="col-3">
+		<div class="col-lg-3 col-md-4 col-sm-6">
 			<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
@@ -90,7 +90,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>	
 		</div>
-		<div class="col-3">
+		<div class="col-lg-3 col-md-4 col-sm-6">
 			<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
@@ -108,7 +108,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>	
 		</div>
-		<div class="col-3">
+		<div class="col-lg-3 col-md-4 col-sm-6">
 		<div class="flip-card">
 			<div class="flip-card-inner">
 					<div class="flip-card-front">
@@ -124,8 +124,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>
 		</div>
-
-		<div class="col-3">
+		<div class="col-lg-3 col-md-4 col-sm-6">
 			<div class="flip-card">
 					<div class="flip-card-inner">
 						<div class="flip-card-front">
@@ -147,17 +146,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!-- Services -->
 	<div class ="service" id="service">
 		<div class="row justify-content-center">
-			<div class="col-4">
+			<div class="col-md-4 col-sm-12">
 			<img class="cloud" src ="<?php echo base_url();?>assets/img/cloud.png" alt="Cloud"/>	
 				
 			</div>
-			<div class="col-6 content">
+			<div class="col-md-6 col-sm-12 content">
 				<h2>Who We Are?</h2>
 				<h4>Inspiring Technologies</h4>
 				<p>
 					Teklink is a South African based turnkey software and business solution provider <br>providing Web, Mobile App and Software Development.	<br/>Established in 2017, at Teklink we proudly develop our own client facing <br/> solutions that we fully operate as separate businesses as well as take<br/> development work for external clients.
 				</p>
-				<div class="col-5">
+				<div class="col-md-5 col-sm-12">
 					<div class="input-container">
 						<button class="btn btn-light btn-field"><strong>READ MORE</strong></button>
 						<i class="fa fa-book icon"></i>
@@ -171,10 +170,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- Approach -->
 	<div class ="approach" id="approach">
 		<div class="row justify-content-center">
-				<div class="col-5">
+				<div class="col-md-5  col-sm-12">
 					<img class="secure" src ="<?php echo base_url();?>assets/img/secure.png" alt="Secure image"/>	
 				</div>
-				<div class="col-7">
+				<div class="col-md-7 col-sm-12">
 					<!-- Dedicated Support -->
 					<div class="dedicated">
 						<div class="dedicated-item">
