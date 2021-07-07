@@ -10,43 +10,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
 	<link rel="stylesheet" type="text/css" href="<?php  echo base_url();?> assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<!-- Bootstrapz CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 	<title>Tekink</title>
 
 </head>
 <body>
-
-<ul class="nav justify-content-end bg-success navbar-dark">
-	<span>Follow us:</span>
-    <li class="nav-item">
-      <a href="#">FB</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">W</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link bg-dark" href="#">Call Now!+(27)10 593 5223</a>
-    </li>
-  </ul>
-
-
-
-  <!-- Home page -->
-<div class="banner">
-	<div class ="navbar"> 	
-		
-	<img class="logo" src ="<?php echo base_url();?>assets/img/logo.png"/>	
-	<ul>
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+  <img class="logo" src ="<?php echo base_url();?>assets/img/logo.png"/>	
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+	 <ul   id="navbarNavAltMarkup">
 			<li><a href="#home">Home</a></li>
 			<li><a href="#about">About us</a></li>
 			<li><a href="#service">Services</a></li>
@@ -55,12 +39,37 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<li><a href="#contact">Contact</a></li>
 			
 		</ul>
+  </div>
+</nav> -->
+
+
+
+
+
+
+
+
+
+  <!-- Home page -->
+ <div class="banner">
+	<div class ="navbar"> 	
+		
+	<img class="logo" src ="<?php echo base_url();?>assets/img/logo.png"/>	
+	
+	<ul   id="navbarNavAltMarkup">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About us</a></li>
+			<li><a href="#service">Services</a></li>
+			<li><a href="#approach">Approach</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+			
+	</ul>
+
 	</div>
 	<div class ="content">
 		<h1><strong>End-to-End Product<br> Engineering</strong></h1>
-		<p>We deliver high value innovated solutions by bridging the gap between <br>business and technology.
-			
-		</p>
+		<p>We deliver high value innovated solutions by bridging the gap between <br>business and technology.</p>
 		<div>
 			<button type="button"><span></span>READ MORE!</button>
 			
@@ -68,7 +77,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 
 	</div>
-</div>
+</div> 
 
 
 <!-- About us -->
@@ -239,20 +248,60 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</div>
 	<!-- Portfolio -->
-	<div class ="portfolio" id="portfolio">
 
+<div class="service" id="portfolio" >
+		<div class="portfolio">
+		<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="circle-image">Image</div>
+				<div class="circle-title">Research & Concept</div>
+				<div class="p">The hardest part of what we do is working out exactly what needs doing. We already have a rough idea but we dig far deeper and work out the tiny intricacies of what needs to be done and conceptualising</div>
+			</div>	
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="circle-image">Image</div>
+				<div class="circle-title">Design & Work Flows</div>
+				<div class="p">Next, we will get working on the layout of the software and the key flows that the system is being built around. At this point 80% of the system will be designed from a visual perspective to make it simpler to understand.</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="circle-image">Image</div>
+				<div class="circle-title">Development & Testing</div>
+				<div class="p">It's at this point we go a little quiet and just get it done. We give you progress reports when we reach milestones. There will be occasions where we need something clarified or checked. This is the longest part of the process.</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="circle-image">Image</div>
+				<div class="circle-title">Training & Deployment</div>
+				<div class="p">We will always find the best and convenient time after your training to launch and get the system going, We've found that the shorter space of time between training and launch the more common it is to need re-training.</div>
+			</div>
+		</div>
+</div>
 
-	
-	</div>
 	<!-- Contact us -->
 	<div class ="contact" id="contact">
-		<h1>Contact Us</h1>
-		<p>Loren ipsom
-			<br>
-		</p>
+		<h2>Use Teklink Today, and Get World Class Service!</h2>
+		<br>
+		<p>Faster time to market, delightful customer experience and continuous evolution in the midst of uncertainties are the most pressing concerns<br> of disruptive product companies.</p>
+		<br><br>
+		<button type="button" class="btn btn-success"> ABOUT US
+		</button>
+		<button type="button" class="btn btn-outline-dark"  >CONTACT US</button>
 	</div>
 
 	<!-- Footer -->
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<div class="address"> Address</div>
+
+
+
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<div class="quick-menu">Quick Menu</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<div class="latest-tweets">Latest Tweets</div>
+		</div>
+	</div>
+
+
 
  <!-- Option 1: Bootstrap Bundle with Popper -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
