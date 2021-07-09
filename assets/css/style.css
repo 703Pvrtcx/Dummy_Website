@@ -11,7 +11,7 @@
     background-position: center;
 }
 
- .navbar {  
+ /* .navbar {  
     width: 86%;
     height:100px;
     margin: auto;
@@ -20,13 +20,13 @@
     align-items: center;
     justify-content: space-between;
   
-} 
+}  */
 .logo {
     width: 100px;
     height: 50px;
     cursor: pointer; 
 } 
- .navbar ul li {  
+ /* .navbar ul li {  
     list-style: none;
     display:inline-block;
     margin: 0 15px;                 
@@ -52,7 +52,7 @@
 
 .navbar ul li:hover::after {
     width: 100%;
-}
+} */
 
 .content {
     width: 100%;

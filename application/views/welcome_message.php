@@ -3,15 +3,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	 <!-- Required meta tags -->
-	 <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link rel="stylesheet" type="text/css" href="<?php  echo base_url();?> assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+ 
+    <!-- Bootstrap core CSS -->
+    <link href="<?php echo base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/styles1.css') ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/style1.css') ?>" rel="stylesheet">
+
+
+	<!-- <link rel="stylesheet" type="text/css" href="<?php  echo base_url();?> assets/css/style.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -22,58 +29,64 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 </head>
 <body>
-<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-  <img class="logo" src ="<?php echo base_url();?>assets/img/logo.png"/>	
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-	 <ul   id="navbarNavAltMarkup">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About us</a></li>
-			<li><a href="#service">Services</a></li>
-			<li><a href="#approach">Approach</a></li>
-			<li><a href="#portfolio">Portfolio</a></li>
-			<li><a href="#contact">Contact</a></li>
-			
-		</ul>
-  </div>
-</nav> -->
 
 
 
+<div class="container">
+  
+<nav class="navbar navbar-expand-md navbar-dark  fixed-top bg-dark">
+     
+     <div class="container">
+      <a class="navbar-brand" href="#">INK-DEMO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarCollapse">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item active">
+          <a class="nav-link" href="#Home">Home</a>     
+          </li>
+          <li class="nav-item">
+		  <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+		  <a class="nav-link" href="#contact">Contact</a>
+		  </li>
+          <li class="nav-item">
+		  <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+		  
+          <li class="nav-item">
+		  <a class="nav-link" href="#approach">Approach</a>
+          </li>
+          <li class="nav-item">
+		  <a class="nav-link" href="#projects">Projects</a>
+          </li>
+		  
+          <li class="nav-item">
+		  <a class="nav-link" href="#services">Services</a>
+          </li>
+
+        </ul>
+        <ul class="navbar-nav right">
+        <li class="nav-item">
+		<a class="nav-link"  href="#Sign-up">Sign-Up</a>
+            </li>
+        </ul>
+          </div>
+          </div>
+    </nav>
 
 
+<div class="container">
 
-
-
-
-  <!-- Home page -->
- <div class="banner">
-	<div class ="navbar"> 	
-		
-	<img class="logo" src ="<?php echo base_url();?>assets/img/logo.png"/>	
-	
-	<ul   id="navbarNavAltMarkup">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About us</a></li>
-			<li><a href="#service">Services</a></li>
-			<li><a href="#approach">Approach</a></li>
-			<li><a href="#portfolio">Portfolio</a></li>
-			<li><a href="#contact">Contact</a></li>
-			
-	</ul>
-
-	</div>
-	<div class ="content">
+ 	<div class ="content">
 		<h1><strong>End-to-End Product<br> Engineering</strong></h1>
 		<p>We deliver high value innovated solutions by bridging the gap between <br>business and technology.</p>
 		<div>
 			<button type="button"><span></span>READ MORE!</button>
 			
-			<button type="button"><span></span>CONTACT US</button>
+			<button type="button"><span></span>Portfolio US</button>
 		</div>
 
 	</div>
@@ -153,7 +166,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
 
 <!-- Services -->
-	<div class ="service" id="service">
+	<div class ="services" id="services">
 		<div class="row justify-content-center">
 			<div class="col-md-4 col-sm-12">
 			<img class="cloud" src ="<?php echo base_url();?>assets/img/cloud.png" alt="Cloud"/>	
@@ -249,7 +262,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 	<!-- Portfolio -->
 
-<div class="service" id="portfolio" >
+	<!-- was working  ka service class -->
+<div class="portfolio" id="portfolio" >
 		<div class="portfolio">
 		<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="circle-image">Image</div>
@@ -274,7 +288,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 </div>
 
-	<!-- Contact us -->
+	<!-- Portfolio us -->
 	<div class ="contact" id="contact">
 		<h2>Use Teklink Today, and Get World Class Service!</h2>
 		<br>
@@ -282,11 +296,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<br><br>
 		<button type="button" class="btn btn-success"> ABOUT US
 		</button>
-		<button type="button" class="btn btn-outline-dark"  >CONTACT US</button>
+		<button type="button" class="btn btn-outline-dark"  >Portfolio US</button>
 	</div>
 
 	<!-- Footer -->
-	<div class="row">
+	<div class="footer">
 		<div class="col-lg-4 col-md-4 col-sm-12">
 			<div class="address"> Address</div>
 
@@ -300,13 +314,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="latest-tweets">Latest Tweets</div>
 		</div>
 	</div>
+	</div>
+</div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="<?php echo base_url('assets/js/vendor/jquery-slim.min.js') ?>"><\/script>')</script>
+    <script src="<?php echo base_url('assets/js/vendor/popper.min.js') ?>"></script>
+    <script src="<?php echo base_url('assets/js/bootstrap.min.js') ?>"></script>
+    <script src="<?php echo base_url('assets/js/vendor/holder.min.js') ?>"></script>
 
 
-
- <!-- Option 1: Bootstrap Bundle with Popper -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> -->
-</body>
+ </body>
 </html>
