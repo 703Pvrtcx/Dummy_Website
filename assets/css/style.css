@@ -57,8 +57,9 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
+
 #topbar {
-  background: #fbfbfb;
+  background: #07af01b6;
   font-size: 15px;
   height: 40px;
   padding: 0;
@@ -66,7 +67,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .contact-info a {
   line-height: 0;
-  color: #444444;
+  color: #ffffff;
+  background-color: #47aeff;
   transition: 0.3s;
 }
 
@@ -100,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: rgb(30, 133, 4);
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
