@@ -174,44 +174,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   <main id="main">
 
-    <!-- ======= Featured Services Section ======= -->
-    <section id="featured-services" class="featured-services section-bg">
-      <div class="container">
-
-        <div class="row no-gutters">
-          <div class="col-lg-4 col-md-6">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-phone"></i></div>
-              <h4 class="title"><a href="">Custom Application Development</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-link"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trade stravi</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trade stravi</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Featured Services Section -->
-
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container">
@@ -220,57 +182,149 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <h2>About Us</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
+          <div class="row justify-content-between">
+	        	<div class="col-3">
+	        		<div class="flip-card">
+				         <div class="flip-card-inner">
+				        	<div class="flip-card-front">
+					            <img class="card-img-top" src ="<?php echo base_url();?>assets/img/CAD.png" alt="CAD"/>	
+						          <div class="card-body">
+							            <h5 class="card-title">Custom Application Development</h5>
+							            <div class="desc">We build highly secure, scalable and robust application</div>
+						        </div>
+					        </div>
+					        <div class="flip-card-back">
+					        </div>
+				      </div>
+			       </div>	
+  		    </div>
+          <div class="col-3">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                  <div class="flip-card-front">
+      
+                          <img class="card-img-top" src ="<?php echo base_url();?>assets/img/WEB.png" alt="WAD"/>	
+                    <div class="card-body">
+                      <h5 class="card-title">Web Application Development</h5>
+                      <div class="desc">For e-commerce portals, CRM, CMS, ERP Solutions to Chatbot's</div>
+                    </div>
+
+                </div>
+              <div class="flip-card-back">
+              
+              </div>
+            </div>
+              </div>	
+      		</div>
+    	  	<div class="col-3">
+	    	    <div class="flip-card">
+              <div class="flip-card-inner">
+              <div class="flip-card-front">
+              <img class="card-img-top" src ="<?php echo base_url();?>assets/img/Mobile.png" alt="MAD"/>	
+              <div class="card-body">
+                <h5 class="card-title">Mobile Application Development</h5>
+                <div class="desc">Whether you require native or cross platform apps</div>
+				  	</div>
+					  </div>
+					  <div class="flip-card-back">
+					
+				  	</div>
+		    		</div>
+	    		</div>
+  	    	</div>
+      		<div class="col-3">
+	    		<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+						<img class="card-img-top" src ="<?php echo base_url();?>assets/img/custom.png" alt="MAD"/>	
+						<div class="card-body">
+							<h5 class="card-title">Software Application Development</h5>
+							<div class="desc">Planning to outsource software maintenance service?</div>
+						</div>
+						</div>
+						<div class="flip-card-back">
+						
+						</div>
+					</div>
+				</div>
+		  	</div>
+    		</div>
+       </div>
 
       </div>
     </section><!-- End About Us Section -->
 
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container">
+	<!-- Approach -->
+	<div class ="approach" id="approach">
+		<div class="row justify-content-center">
+				<div class="col-5">
+					<img class="secure" src ="<?php echo base_url();?>assets/img/secure.png" alt="Secure image"/>	
+				</div>
+				<div class="col-7">
+					<!-- Dedicated Support -->
+					<div class="dedicated">
+						<div class="dedicated-item">
+							<div class="row">
+								<div class="col-2">
+									<div class="dedicated-icon">
+									<img class="Support" src ="<?php echo base_url();?>assets/img/support.png" alt="Support"/>	
+				
+									</div>
+								</div>
+								<div class="col-8">
+										<div class="dedicated-title">
+										<strong>Dedicated Support</strong>
+										</div>
+										<div class="dedicated-p">We have a customer centric Support team dedicated to serve the needs of our customers. Our support team is available 24/7 and is supported by in-house built Customer Relationship Management (CRM) tool for better support experience.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Dedicated Experts -->
+					<div class="dedicated">
+						<div class="dedicated-item">
+							<div class="row">
+								<div class="col-2">
+									<div class="dedicated-icon">
+									<img class="Experts" src ="<?php echo base_url();?>assets/img/Experts.png" alt="Support"/>	
+	
+									</div>
+								</div>
+								<div class="col-8">
+										<div class="dedicated-title">
+											<strong>Dedicated Experts</strong>
+										</div>
+										<div class="dedicated-p">We take security very seriously. We have developed a comprehensive set of practices, technologies, and policies to help ensure your data is secure, our cloud and local hosted solutions are fully supported by our team of security experts.</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
-        <div class="row no-gutters">
 
-          <div class="col-lg-4 col-md-6 content-item">
-            <span>01</span>
-            <h4>Lorem Ipsum</h4>
-            <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
-          </div>
+					
+					<!-- Dedicated Security -->
+					<div class="dedicated">
+						<div class="dedicated-item">
+							<div class="row">
+								<div class="col-2">
+									<div class="dedicated-icon">
+									<img class="Security" src ="<?php echo base_url();?>assets/img/security.png" alt="Security"/>	
+				
+									</div>
+								</div>
+								<div class="col-8">
+										<div class="dedicated-title"><strong>Dedicated Security</strong></div>
+										<div class="dedicated-p">We have a customer centric Support team dedicated to serve the needs of our customers. Our support team is available 24/7 and is supported by in-house built Customer Relationship Management (CRM) tool for better support experience.</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
-          <div class="col-lg-4 col-md-6 content-item">
-            <span>02</span>
-            <h4>Repellat Nihil</h4>
-            <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
-          </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
-            <span>03</span>
-            <h4> Ad ad velit qui</h4>
-            <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item">
-            <span>04</span>
-            <h4>Repellendus molestiae</h4>
-            <p>Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item">
-            <span>05</span>
-            <h4>Sapiente Magnam</h4>
-            <p>Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est quibusdam</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item">
-            <span>06</span>
-            <h4>Facilis Impedit</h4>
-            <p>Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae voluptatibus corporis sequi</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Why Us Section -->
-
+				</div>
+		</div>
+	</div>
     <!-- ======= Our Clients Section ======= -->
     <section id="clients" class="clients">
       <div class="container">
